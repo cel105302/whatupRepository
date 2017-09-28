@@ -1,4 +1,4 @@
-package com.cel.cloud.springbootartistconsumer;
+package com.cel.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
