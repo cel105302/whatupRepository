@@ -19,5 +19,14 @@
 	<modules>
 		<module>springboot-artist-consumer</module>
 		<module>springboot-artist-provider</module>
+		<module>springboot-cel-eureka</module>
 	</modules>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>
