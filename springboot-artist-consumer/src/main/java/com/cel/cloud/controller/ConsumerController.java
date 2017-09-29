@@ -14,6 +14,7 @@ public class ConsumerController {
 	private RestTemplate restTemlate;
 	@GetMapping("/test/{id}")
 	public User findById(@PathVariable Long id){
-		return this.restTemlate.getForObject("http://localhost:8089/simple/" + id, User.class);
+		System.out.println(id);
+		return this.restTemlate.getForObject("http://localhost:8088/simple/" + id, User.class);
 	}
 }
