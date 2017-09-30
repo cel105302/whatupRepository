@@ -22,8 +22,9 @@
 	</dependencies>
 
 	<modules>
-		<module>springboot-artist-consumer</module>
-		<module>springboot-artist-provider</module>
+		<module>springboot-cel-consumer</module>
+		<module>springboot-cel-provider-01</module>
+		<module>springboot-cel-provider-02</module>
 		<module>springboot-cel-eureka</module>
 	</modules>
 	<build>

@@ -1,8 +1,12 @@
 server:
   port: 8716
+security:
+  user:
+    name: user
+    password: password
 eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: http://localhost:8716/eureka/
+      defaultZone: http://user:password@localhost:8716/eureka/
